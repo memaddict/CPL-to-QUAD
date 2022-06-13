@@ -1,18 +1,24 @@
 # CPL to QUAD Compilator [OUI - 2021]
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django) ![SLY](https://img.shields.io/badge/-SLY-green)
 
 ## Python CPQ
 
 
 
-- :bar_chart: Uses SLY for lexical & semantic analysis
+- :bar_chart: Uses [SLY](https://github.com/dabeaz/sly) for lexical & semantic analysis
     
 - :hammer: Builds custom AST for direct translations
     
 - :scissors: Impelements backpatching & code optimization
  
 
+## What is it?
 
+![Header](https://github.com/memaddict/CPL-to-QUAD/blob/main/Header.webp)
+
+- Python based implementation of CPL to QUAD compiler
+- A testing ground for multiple stages and optimizations of real compilers
 
 ## Resourses 
 
