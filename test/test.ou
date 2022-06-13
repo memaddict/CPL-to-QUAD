@@ -1,0 +1,34 @@
+/* Random operations to test proper translation */
+ 
+a, b : float;
+i, j : int;
+
+check : int;
+{
+	a = 13.37;
+   	j = 55;
+	input(check);
+	switch(check){
+		case 1:
+			i = static_cast<int>(a);
+   			output(i);
+			break;
+		case 2:
+			while (i <= 121) { i = i + 11; }
+			break;
+		case 3:
+			if ( a < j ) {
+             	output ( a );
+             	}
+   			else {
+				b = static_cast<float>(j);
+             	while (0.006 > a && b < 6600) {
+					b = b + 6789;
+					}
+				}
+			break;			
+		default:
+			b = a / 123;
+			break;
+		}
+}

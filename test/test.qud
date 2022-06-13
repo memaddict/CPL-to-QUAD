@@ -1,0 +1,38 @@
+RASN a 13.37
+IASN j 55
+IINP check
+IASN sw1 check
+IEQL sw0 sw1 1
+JMPZ 11 sw0
+RTOI ti1 a
+IASN i ti1
+IPRT i
+JUMP 37
+IEQL sw0 sw1 2
+JMPZ 19 sw0
+IGRT ti1 i 121
+ISUB ti1 1 ti1
+JMPZ 18 ti1
+IADD i i 11
+JUMP 13
+JUMP 37
+IEQL sw0 sw1 3
+JMPZ 36 sw0
+ITOR tr1 j
+RLSS tr2 a tr1
+JMPZ 26 tr2
+RPRT a
+JUMP 35
+ITOR tr1 j
+RASN b tr1
+RGRT tr1 0.006 a
+JMPZ 35 tr1
+ITOR tr1 6600
+RLSS tr2 b tr1
+JMPZ 35 tr2
+RADD b b 6789
+JUMP 28
+JUMP 37
+RDIV b a 123
+HALT
+alex.yermakov.20364
